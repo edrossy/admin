@@ -93,19 +93,19 @@ const AccountDetails = () => {
             className="mt-base"
             label="Swap link template"
             {...register("swap_link_template")}
-            placeholder="https://acme.inc/swap={swap_id}"
+            placeholder="https://store.magisports.com/swap={swap_id}"
           />
           <Input
             className="mt-base"
             label="Draft order link template"
             {...register("payment_link_template")}
-            placeholder="https://acme.inc/payment={payment_id}"
+            placeholder="https://store.magisports.com/payment={payment_id}"
           />
           <Input
             className="mt-base"
             label="Invite link template"
             {...register("invite_link_template")}
-            placeholder="https://acme-admin.inc/invite?token={invite_token}"
+            placeholder="https://store.magisports.com/invite?token={invite_token}"
           />
         </BodyCard>
       </div>
